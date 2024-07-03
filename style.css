@@ -8,10 +8,16 @@ header{
     text-align: center;
 }
 footer{
+    bottom: 0;
+    width: 100%;
+    position: fixed;
     color: goldenrod;
+    justify-content: center;
+    padding: 1vh 0;
     font-family: Castellar;
     font-size: medium;
-    background-color: black;
+
+    background-image: linear-gradient(to bottom, black, white);
     text-align: center;
 }
 h4{
@@ -27,5 +33,18 @@ h4{
 #botonPato{
     color: coral;
     text-align: center;
+}
 
+#BotA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+
+}
+
+#Cont{
+    color: white;
+    text-align: center;
+    font-family: Cambria;
 }
