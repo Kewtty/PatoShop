@@ -1,0 +1,31 @@
+h1 {
+    color: goldenrod;
+    font-family: Cambria;
+    font-size: xxx-large;
+}
+header{
+    background-color: black;
+    text-align: center;
+}
+footer{
+    color: goldenrod;
+    font-family: Castellar;
+    font-size: medium;
+    background-color: black;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-size: medium;
+
+}
+.parrafoPrincipal{
+    font-family: Arial;
+    text-align: center;
+}
+
+#botonPato{
+    color: coral;
+    text-align: center;
+
+}
