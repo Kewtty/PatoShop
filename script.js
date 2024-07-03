@@ -3,7 +3,7 @@ b.addEventListener('click',function (){
     alert("Hola Pato")
 })
 
-
+/*ohayo*/
 /*b.addEventListener('click', ()=> {
     alert("Hola Pato");
 })
