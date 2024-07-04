@@ -15,3 +15,16 @@ if(c == 6){
 for(let i = 0; i < 10; i++){
     console.log(i)
 }
+
+
+/*ohayo*/
+/*b.addEventListener('click', ()=> {
+    alert("Hola Pato");
+})
+
+function Pato(){
+    alert("Hola Pato");
+}
+
+const b = document.getElementById("botonPato");
+b.addEventListener('click', Pato)/*/

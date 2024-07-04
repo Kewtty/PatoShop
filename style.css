@@ -2,29 +2,38 @@ h1 {
     color: goldenrod;
     font-family: Cambria;
     font-size: xxx-large;
+    text-align: center;
 }
 header{
     background-color: black;
     text-align: center;
 }
-footer{
+/*footer{
     bottom: 0;
     width: 100%;
-    position: fixed;
+    position: absolute;
     color: goldenrod;
     justify-content: center;
-    padding: 1vh 0;
+    padding: 1vh;
     font-family: Castellar;
     font-size: medium;
 
     background-image: linear-gradient(to bottom, black, white);
     text-align: center;
-}
+}*/
+
 h4{
     text-align: center;
     font-size: medium;
 
 }
+
+#ubi{
+    text-align: center;
+
+}
+
+
 .parrafoPrincipal{
     font-family: Arial;
     text-align: center;
@@ -44,7 +53,31 @@ h4{
 }
 
 #Cont{
-    color: white;
+    color: black;
     text-align: center;
     font-family: Cambria;
 }
+
+.texto{
+    color: black;
+    font-family: arial;
+}
+
+#map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+.centrao{
+    text-align: center;
+}
+
+li{
+    text-align: center;
+list-style-type: none;
+}
+

@@ -1,16 +1,9 @@
 const b = document.getElementById("botonPato");
-b.addEventListener('click',function (){
+
+/*b.addEventListener('click',function (){
     alert("Hola Pato")
+})*/
+
+b.addEventListener('click',function (){
+    window.location.href = 'mainpage.html'
 })
-
-/*ohayo*/
-/*b.addEventListener('click', ()=> {
-    alert("Hola Pato");
-})
-
-function Pato(){
-    alert("Hola Pato");
-}
-
-const b = document.getElementById("botonPato");
-b.addEventListener('click', Pato)/*/
