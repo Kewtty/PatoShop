@@ -81,3 +81,29 @@ li{
 list-style-type: none;
 }
 
+#img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0 auto;
+    width: 10vh;
+}
+
+.imagen{
+    height: 16em;
+    width: 30em;
+}
+
+.prod {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.ajust{
+    height: 20em;
+    width: 35em;
+}
+
