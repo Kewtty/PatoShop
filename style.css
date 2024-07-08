@@ -7,6 +7,7 @@ h1 {
 header{
     background-color: black;
     text-align: center;
+    margin-bottom: 1em;
 }
 /*footer{
     bottom: 0;
@@ -42,6 +43,9 @@ h4{
 #botonPato{
     color: coral;
     text-align: center;
+    border-radius: 43px;
+    cursor: pointer;
+    padding: 15px;
 }
 
 #BotA{
@@ -106,4 +110,65 @@ list-style-type: none;
     height: 20em;
     width: 35em;
 }
+#ModOscuro{
+    color: black;
+    text-align: center;
+}
 
+#BotB{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+#ModOscuro{
+    background: white;
+    color: black;
+    border-radius: 43px;
+    cursor: pointer;
+}
+/*EL MODO TERRY*/
+
+.modoOscuro{
+    transition: 1s;
+}
+
+.modoOscuro header{
+    background-color: rgba(45,5,9,0.95);
+    text-align: center;
+    margin-bottom: 1em;
+}
+.modoOscuro #ModOscuro{
+    background: black;
+    color: white;
+}
+
+.modoOscuro #botonPato{
+    background: black;
+    color: white;
+}
+
+body.modoOscuro{
+    background-color: black;
+}
+
+.modoOscuro h4{
+    color: white;
+}
+
+.modoOscuro h2{
+    color: white;
+}
+
+.modoOscuro .parrafoPrincipal{
+    color: white;
+}
+
+.modoOscuro #Cont{
+    color: white;
+}
+
+
+
+/*MODO OSCURO PARA MAINPAGE*/
