@@ -4,11 +4,13 @@ h1 {
     font-size: xxx-large;
     text-align: center;
 }
-header{
+
+header {
     background-color: black;
     text-align: center;
     margin-bottom: 1em;
 }
+
 /*footer{
     bottom: 0;
     width: 100%;
@@ -23,32 +25,49 @@ header{
     text-align: center;
 }*/
 
-h4{
+h4 {
     text-align: center;
     font-size: medium;
 
 }
 
-#ubi{
+#ubi {
     text-align: center;
 
 }
 
 
-.parrafoPrincipal{
+.parrafoPrincipal {
     font-family: Arial;
     text-align: center;
 }
 
-#botonPato{
-    color: coral;
+#botonPato {
+    color: black;
     text-align: center;
     border-radius: 43px;
     cursor: pointer;
     padding: 15px;
 }
 
-#BotA{
+#compra{
+    color: black;
+    text-align: center;
+    border-radius: 43px;
+    cursor: pointer;
+    padding: 15px;
+    margin-left: 1em;
+}
+
+#Back {
+    color: black;
+    text-align: center;
+    border-radius: 43px;
+    cursor: pointer;
+    padding: 15px;
+}
+
+#BotA {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,18 +75,18 @@ h4{
 
 }
 
-#Cont{
+#Cont {
     color: black;
     text-align: center;
     font-family: Cambria;
 }
 
-.texto{
+.texto {
     color: black;
     font-family: arial;
 }
 
-#map{
+#map {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,13 +95,13 @@ h4{
 
 }
 
-.centrao{
+.centrao {
     text-align: center;
 }
 
-li{
+.listaMainPage{
     text-align: center;
-list-style-type: none;
+    list-style-type: none;
 }
 
 #img1 {
@@ -94,7 +113,7 @@ list-style-type: none;
     width: 10vh;
 }
 
-.imagen{
+.imagen {
     height: 16em;
     width: 30em;
 }
@@ -106,69 +125,157 @@ list-style-type: none;
     height: auto;
 }
 
-.ajust{
+.ajust {
     height: 20em;
     width: 35em;
 }
-#ModOscuro{
+
+#ModOscuro {
     color: black;
     text-align: center;
 }
 
-#BotB{
+#BotB {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 10vh;
 }
 
-#ModOscuro{
+#ModOscuro {
     background: white;
     color: black;
     border-radius: 43px;
     cursor: pointer;
 }
+
 /*EL MODO TERRY*/
 
-.modoOscuro{
+.modoOscuro {
     transition: 1s;
 }
 
-.modoOscuro header{
-    background-color: rgba(45,5,9,0.95);
+.modoOscuro header {
+    background-color: rgba(45, 5, 9, 0.95);
     text-align: center;
     margin-bottom: 1em;
 }
-.modoOscuro #ModOscuro{
+
+.modoOscuro #ModOscuro {
     background: black;
     color: white;
 }
 
-.modoOscuro #botonPato{
+.modoOscuro #botonPato {
     background: black;
     color: white;
 }
 
-body.modoOscuro{
+body.modoOscuro {
     background-color: black;
 }
 
-.modoOscuro h4{
+.modoOscuro h4 {
     color: white;
 }
 
-.modoOscuro h2{
+.modoOscuro h2 {
     color: white;
 }
 
-.modoOscuro .parrafoPrincipal{
+.modoOscuro .parrafoPrincipal {
     color: white;
 }
 
-.modoOscuro #Cont{
+.modoOscuro #Cont {
     color: white;
 }
 
+
+
+#ModOscuro {
+    color: black;
+    text-align: center;
+}
+
+#BotB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+#ModOscuro {
+    background: white;
+    color: black;
+    border-radius: 43px;
+    cursor: pointer;
+}
 
 
 /*MODO OSCURO PARA MAINPAGE*/
+#ModNegro{
+    background: white;
+    color: black;
+    border-radius: 43px;
+    cursor: pointer;
+    color: Black;
+    text-align: center;
+    border-radius: 43px;
+    cursor: pointer;
+    padding: 15px;
+    font-family: Arial;
+}
+
+body.modoBlack{
+    background-color: black;
+}
+.modoBlack{
+    transition: 3s;
+}
+.modoBlack header {
+    background-color: rgba(45, 5, 9, 0.95);
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.modoBlack h1{
+    color: white;
+}
+
+.modoBlack h3{
+    color: white;
+}
+.modoBlack h4{
+    color: white;
+}
+.modoBlack #ModNegro {
+    background: black;
+    color: white;
+}
+.modoBlack .texto{
+    color:white;
+}
+.modoBlack ul{
+    color: white;
+}
+.modoBlack h2{
+    color: white;
+}
+
+.modoBlack #Cont {
+    color: white;
+}
+
+.modoBlack #Back{
+    background: black;
+    color: white;
+}
+
+/*list-style-type: none;*/
+
+
+@media(max-width: 1100px){
+    /*nuevo disenio para celulares asi bien maquiavelicos*/
+
+}
